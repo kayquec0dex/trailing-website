@@ -1,0 +1,77 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container-pai {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 100px 0px;
+    padding: 20px;
+}
+
+/*Estilização do botão da chamada para lista*/
+.button-lista {
+    padding: 5px 80px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Montserrat";
+    outline: none;
+    border-radius: 30px;
+    border-style: none;
+    background: #00FF57;
+    margin-top: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+body{
+  min-height: 100vh;
+}
+
+#footer{
+  position: sticky;
+  top: 100%;
+}
+
+/*Animação botão chamada para lista*/
+.button-lista:hover {
+    background-color: #00FF57;
+    transform: scale(1.202);
+    box-shadow: 10px 10px 48px rgba(0, 0, 0, 0.25)
+}
+
+/*animação do botão card*/
+.btn:hover {
+  background-color: #00FF57;
+  transform: scale(1.202);
+  transition: 0.2s;
+  box-shadow: 5px 5px 24px rgba(0, 0, 0, 0.25);
+}
+/*Responsividade da chamada da ação*/
+
+@media (max-width: 828px) {
+  .container-pai {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .button-lista {
+    font-size: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 828px) {
+  .card-deck {
+    display: flex;
+    flex-direction: column;
+  }
+}
