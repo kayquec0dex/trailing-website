@@ -5,12 +5,19 @@
     <title>Confirmação de Cadastro</title>
 </head>
 <body>
-    <h1>Confirmação de Cadastro</h1>
-    <p>Seus dados foram registrados com sucesso:</p>
-    <ul>
-        <li><strong>Nome:</strong> <?php echo $_POST["nome"]; ?></li>
-        <li><strong>E-mail:</strong> <?php echo $_POST["email"]; ?></li>
-        <li><strong>RG:</strong> <?php echo $_POST["rg"]; ?></li>
-    </ul>
+    <header>
+        <h1 class="titulo-cadastro">Confirmação de Cadastro</h1>
+    </header>
+    <main>
+        <div class="informacoes-cadastro">
+            <?php
+                $nome = $_POST["nome"];
+                $email = $_POST["email"];
+
+                echo "<h2> Bem vindo, $nome!</h2>";
+                echo "<p> Olá, $nome, seja bem-vindo à nossa plataforma de cursos online, aqui você encontrará o melhor conteúdo para se tornar um desenvolvedor!</p>";
+            ?>
+        </div>
+    </main>
 </body>
 </html>
