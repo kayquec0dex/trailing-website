@@ -70,23 +70,10 @@
 	  <div class="vw-plugin-top-wrapper"></div>
 	</div>
   </div>
-  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-  <script>
-	new window.VLibras.Widget('https://vlibras.gov.br/app');
-  </script>
 		</ul>
 		</div>
 	</div>
 </nav>
-<script>  
-	$(document).ready(function(){
-		$('#checkbox').click(function(){
-			var element = document.body;
-			element.classList.toggle("dark"); 
-		});
-	});        
-</script> 
-
 <br>
 <br>
 
@@ -98,14 +85,14 @@
 			class="img-fluid" alt="Sample image">
 		</div>
 		<div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-		  <form class="needs-validation" action="#" novalidate>
+		  <form class="needs-validation" action="../php/login.php" method="post" novalidate>
 			<br>
 			<!-- Email input -->
-			  <input type="email" id="email" class="inputs form-control form-control-lg" onkeyup="validarEmail()" placeholder="Insira seu e-mail"/>
+			  <input name="email" type="email" id="email" class="inputs form-control form-control-lg" onkeyup="validarEmail()" placeholder="Insira seu e-mail"/>
 			  <label for="email">Usuário</label>
   
 			<!-- Password input -->
-			  <input type="password" id="senha" minlength="6" class="form-control form-control-lg"
+			  <input name="password" type="password" id="senha" minlength="6" class="form-control form-control-lg"
 			  onkeyup="validarSenha()" placeholder="Insira sua senha"/>
 			  <label for="senha">Senha</label>
   
@@ -181,7 +168,6 @@
 
 
 <script src="../js/login.js"></script>
-<script src="../js/Darkmode.js"></script>
     
 </body>
 </html>

@@ -89,13 +89,13 @@
   </script> 
 
     <header>
-        <h1 class="titulo-cadastro">Confirmação de Cadastro</h1>
+        <h1 class="titulo-cadastro">Login efetuado com sucesso</h1>
     </header>
     <main>
         <div class="informacoes-cadastro">
             <?php
-                $nome = $_POST["nome"];
                 $email = $_POST["email"];
+                $password = $_POST["password"];
 
                 echo "<h2> Bem vindo, $nome!</h2>";
                 echo "<p> Olá, $nome, seja bem-vindo à nossa plataforma de cursos online, aqui você encontrará o melhor conteúdo para se tornar um desenvolvedor!</p>";
