@@ -1,9 +1,27 @@
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   }
 
-  #footer {
-    margin-top: auto;
-  }
+  main {
+    display: flex;
+    justify-content: flex-end; /* Align content to the right */
+    margin-top: 20px;
+}
+
+.informacoes-cadastro {
+    max-width: 400px; /* Adjust the width as needed */
+    text-align: left; /* Align text within the container to the left */
+    margin-right: 20px; /* Add some margin to separate it from the right edge */
+    margin: 20px; /* Add margin to all sides of the container */
+    padding: 20px; /* Add padding for better visual appearance */
+    border: 2px solid #001F3F; /* Navy blue border */
+    border-radius: 10px; /* Optional: Add border radius for rounded corners */
+    background-color: #ffffff; /* Optional: Add a background color */
+}
+
+#footer {
+  margin-top: auto;
+}

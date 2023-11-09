@@ -12,8 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- LINKS CSS -->
-    <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/darkmode.css">
+    <link rel="stylesheet" href="../css/cadastro_php.css">
 
     	<!-- FAVICON -->
 	<link rel="icon" type="image/x-icon" href="../imgs/Favicon.png">
@@ -88,9 +88,6 @@
     });        
   </script> 
 
-    <header>
-        <h1 class="titulo-cadastro">Confirmação de Cadastro</h1>
-    </header>
     <main>
         <div class="informacoes-cadastro">
             <?php
@@ -98,6 +95,7 @@
                 $email = $_POST["email"];
 
                 echo "<h2> Bem vindo, $nome!</h2>";
+                echo "<br>";
                 echo "<p> Olá, $nome, seja bem-vindo à nossa plataforma de cursos online, aqui você encontrará o melhor conteúdo para se tornar um desenvolvedor!</p>";
             ?>
         </div>
