@@ -96,7 +96,7 @@
 
       echo "<h2> Bem-vindo, $nome!</h2>";
       echo "<br>";
-      echo "<p> Olá, $nome, seja bem-vindo à nossa plataforma de cursos online, aqui você encontrará o melhor conteúdo para se tornar um desenvolvedor!</p>";
+      echo "<p> Olá, $nome, seja bem-vindo à nossa plataforma de cursos online, aqui você encontrará o melhor conteúdo para se tornar um desenvolvedor front-end de sucesso!</p>";
       ?>
     </div>
   </main>
