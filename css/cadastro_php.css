@@ -3,23 +3,36 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  }
+}
 
-  main {
-    display: flex;
-    justify-content: flex-end; /* Align content to the right */
-    margin-top: 20px;
+main.flex-container {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  margin-top: 20px;
 }
 
 .informacoes-cadastro {
-    max-width: 400px; /* Adjust the width as needed */
-    text-align: left; /* Align text within the container to the left */
-    margin-right: 20px; /* Add some margin to separate it from the right edge */
-    margin: 20px; /* Add margin to all sides of the container */
-    padding: 20px; /* Add padding for better visual appearance */
-    border: 2px solid #001F3F; /* Navy blue border */
-    border-radius: 10px; /* Optional: Add border radius for rounded corners */
-    background-color: #ffffff; /* Optional: Add a background color */
+  max-width: 400px;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  border: 2px solid #01ff70; /* Cor da borda verde neon */
+  border-radius: 10px;
+  background-color: #f4fff7; /* Cor de fundo mais suave */
+  box-shadow: 0 0 10px rgba(1, 255, 112, 0.5); /* Sombra com base na cor verde neon */
+}
+
+.informacoes-imagem {
+  margin-right: 20px;
+  /* Add margin to separate it from the right edge */
+}
+
+.informacoes-imagem img {
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+  width: 300px; /* Defina a largura desejada da imagem */
 }
 
 #footer {
