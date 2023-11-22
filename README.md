@@ -1,5 +1,5 @@
 # Projeto Trailling
-Bem-vindo ao repositório do Trailling! Este é um projeto desenvolvido em PHP, destinado a um grupo de estudos de desenvolvimento web na faculdade. Certifique-se de seguir as instruções abaixo para configurar o ambiente e executar o projeto em sua máquina local.
+Bem-vindo ao repositório do Trailling! Este é um projeto desenvolvido em HTML, CSS, Javascript e PHP, destinado a um grupo de estudos de desenvolvimento web na faculdade. Certifique-se de seguir as instruções abaixo para configurar o ambiente e executar o projeto em sua máquina local.
 
 # Pré-requisitos
 Para executar este projeto em sua máquina, você precisará ter o XAMPP instalado.
